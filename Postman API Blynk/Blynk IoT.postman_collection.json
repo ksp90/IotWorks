@@ -1,0 +1,119 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Blynk IoT",
+		"_postman_id": "7cf4ca5b-5406-1a5f-a112-7f25b4d2ba5d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Blynk Update Data",
+			"request": {
+				"url": {
+					"raw": "https://blynk.cloud/external/api/update?token=81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29&V0=0",
+					"protocol": "https",
+					"host": [
+						"blynk",
+						"cloud"
+					],
+					"path": [
+						"external",
+						"api",
+						"update"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "V0",
+							"value": "0",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Blynk Get Data",
+			"request": {
+				"url": {
+					"raw": "https://blynk.cloud/external/api/get?token=81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29&V0",
+					"protocol": "https",
+					"host": [
+						"blynk",
+						"cloud"
+					],
+					"path": [
+						"external",
+						"api",
+						"get"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "V0",
+							"value": "",
+							"equals": false,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Blynk Device Status",
+			"request": {
+				"url": {
+					"raw": "https://blynk.cloud/external/api/isHardwareConnected?token=81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29",
+					"protocol": "https",
+					"host": [
+						"blynk",
+						"cloud"
+					],
+					"path": [
+						"external",
+						"api",
+						"isHardwareConnected"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "81jH_gyIDeD8E1g1Cuqc8Yn2oOWzjS29",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
