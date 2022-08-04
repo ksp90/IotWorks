@@ -1,4 +1,24 @@
 # IoT Works
+In this repository we will be using NodeMCU 8266 Lua Amica board and Arduino IDE. Lua Amica nodeMCU uses CH340 driver. Driver library is already attahced in this repo [here](/Library). Following are all sample projects which can be clubbed together and extended for mroe interesting IoT projects.
+
+Before starting using the example please install the driver for the MCU and required board in Arduino IDE
+Board manager link: 
+- NodeMCU https://arduino.esp8266.com/stable/package_esp8266com_index.json
+- ESP32 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+Hardware required for Project:
+- Breadboard (Please note Lua board might not leave pins left in the board for connection, use two boards together or Connect to MCU pin directly using Jumper Wires)
+- Jumper Wires - Male to Male, Male to Female and Female to Female
+- Micro USB for connecting to laptop/computer
+- 5V 1amp Power bank if power supplied from power bank, Power also can be supplied from laptop/computer using usb or from power supply module
+- Required sensors
+
+Sensors Used:
+- DHT11 : Temperature and Humidity 
+- MPU 6050: IMU/Gyro Accelerometer and Gyroscope
+- MP280: Air Pressure, Barometer, Altitude
+
+
 Folowing are the examples:
 - [Audio_Sensor_HW_484](/Examples/Audio_Sensor_HW_484) : Audio Sensor 484 usage
 - [Buzzer_Tone](/Examples/Buzzer_Tone) : Usage of active buzzer
